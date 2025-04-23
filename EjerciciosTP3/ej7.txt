@@ -1,0 +1,3 @@
+En un videojuego de estrategia, el patrón Abstract Factory sería útil para crear diferentes tipos de unidades de trabajo (ingenieros, constructores, operadores)
+para diferentes facciones (humanos, enanos, elfos) de manera coherente y adaptable a cada escenario de juego.
+
