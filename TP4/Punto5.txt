@@ -1,0 +1,5 @@
+Se esta desarrollando un juego de simulacion donde hay cientos de arboles en un bosque Cada árbol tiene un conjunto de atributos, como su ubicación, tamaño y color de hojas,
+pero muchos de esos árboles tienen las mismas características.
+Si se almacenaran estos atributos de manera independiente para cada árbol, se estaria utilizando una gran cantidad de memoria, ya que cada árbol tendría una copia de los mismos datos.
+Aquí es donde entra el patrón Flyweight. En lugar de almacenar los atributos comunes de los árboles (como el color y el tipo de hojas) en cada objeto de árbol, se crea una única instancia compartida de estos atributos,
+y hacer que los árboles compartan esta información. De esta manera, solo se guardan las características específicas de cada árbol
